@@ -8,7 +8,7 @@ import { TimerInput } from '../components/TimerInput'
 
 const Home: NextPage = () => {
 
-  const [time, setTime] = useState<number>(7);
+  const [time, setTime] = useState<number>(1);
   const [newTime, setNewTime] = useState<number>(0)
   const [days, setDays] = useState<number>(0);
   const [hours, setHours] = useState<number>(0);
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center bg-[#1e1f29]">
       <Head>
-        <title>Launch Countdown Timer</title>
+        <title>Dinleus | Online Terapi Platformu</title>
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
