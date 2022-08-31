@@ -6,6 +6,7 @@ import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { TimerInput } from '../components/TimerInput'
 
+
 const Home: NextPage = () => {
 
   const [time, setTime] = useState<number>(1);
@@ -76,7 +77,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
-
+  
       <Header message={message} />
 
       <TimerContainer
@@ -86,7 +87,7 @@ const Home: NextPage = () => {
         seconds={seconds}
       />
       <TimerInput value={newTime} handleClick={handleClick} handleChange={handleChange} />
-
+      
       <Footer />
       <script src="//code.jivosite.com/widget/oc4JkrootF" async ></script>
     </div>
