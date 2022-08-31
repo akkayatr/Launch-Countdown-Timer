@@ -88,6 +88,7 @@ const Home: NextPage = () => {
       <TimerInput value={newTime} handleClick={handleClick} handleChange={handleChange} />
 
       <Footer />
+      <script src="//code.jivosite.com/widget/oc4JkrootF" async ></script>
     </div>
   )
 }
